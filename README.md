@@ -1,3 +1,8 @@
+https://www.npmjs.com/package/react-cropper
+https://fengyuanchen.github.io/cropperjs/
+https://github.com/fengyuanchen/cropperjs#scalexscalex
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
