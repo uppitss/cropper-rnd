@@ -3857,6 +3857,11 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
+es6-promise@^4.0.5:
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  integrity sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
+
 escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
@@ -4850,6 +4855,20 @@ ignore@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
+
+image-filter-core@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/image-filter-core/-/image-filter-core-2.0.2.tgz#1b994c9b9e34476530de9ca8450e85f87a81bd10"
+  integrity sha512-VwedwoAALiN64HOTVL2MPY4xl1Qfow0J6kgR9+kH/OYj76W44o3DUBb5G0eW44xF4GagtaIl7JsUkaa/7aCj6g==
+  dependencies:
+    es6-promise "^4.0.5"
+
+image-filter-grayscale@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/image-filter-grayscale/-/image-filter-grayscale-1.0.1.tgz#702ed9cd70853a394e942b73fc69db250d1383ac"
+  integrity sha512-T6nyCWPRoqDe34cFu15fpoCul+qUCHX8eIFItY9J8jXAXNijYTXVekbiRekT1b5D8SBcH8H9d59gAFDnwgxeMA==
+  dependencies:
+    image-filter-core "^2.0.0"
 
 immer@^9.0.7:
   version "9.0.15"

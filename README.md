@@ -2,7 +2,8 @@ https://www.npmjs.com/package/react-cropper
 https://fengyuanchen.github.io/cropperjs/
 https://github.com/fengyuanchen/cropperjs#scalexscalex
 
-
+https://www.npmjs.com/package/image-filter-grayscale
+https://www.npmjs.com/package/image-filter-grayscale
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
